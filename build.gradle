@@ -25,7 +25,8 @@ dependencies {
     )
     testCompile(
             "junit:junit:$junitVersion",
-            "org.hamcrest:hamcrest-core:$hamcrestVersion"
+            "org.hamcrest:hamcrest-core:$hamcrestVersion",
+            "io.dropwizard:dropwizard-testing:$dropwizardVersion"
     )
 }
 
